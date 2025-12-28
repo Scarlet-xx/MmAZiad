@@ -1,0 +1,11 @@
+site_name: Multilingual Multimodal Intelligent Application Dataset
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Dataset Overview: dataset.md
+  - Data Statistics: statistics.md
+  - Multimodal Examples: examples.md
+  - Download & Citation: download.md
