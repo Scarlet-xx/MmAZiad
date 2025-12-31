@@ -1,11 +1,27 @@
 site_name: Multilingual Multimodal Intelligent Application Dataset
+site_description: A dataset supporting multilingual and multimodal intelligent applications
+site_author: Scarlet-lt
+site_url: https://Scarlet-xx.github.io/MmAZiad/
 
 theme:
   name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
 
 nav:
   - Home: index.md
   - Dataset Overview: dataset.md
   - Data Statistics: statistics.md
-  - Multimodal Examples: examples.md
-  - Download & Citation: download.md
+  - Multimodal Alignment Demo: demo.md
+  - Download & License: download.md
+  - Citation: citation.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - footnotes
+  - tables
