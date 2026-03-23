@@ -5,7 +5,7 @@ distribution and identify potential biases.
 
 ## Language Distribution
 
-![Language Distribution](images/duration_speakers.png)
+![Language Distribution](images/speakers.png)
 
 ## Segment Length Distribution
 
