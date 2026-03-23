@@ -15,9 +15,8 @@ nav:
   - Home: index.md
   - Dataset Overview: dataset.md
   - Data Statistics: statistics.md
-  - Multimodal Alignment Demo: demo.md
-  - Download & License: download.md
-  - Citation: citation.md
+  - Multimodal Alignment Demo: demo.html
+  - Access & Citation: Access & Citation.md
 
 markdown_extensions:
   - toc:
