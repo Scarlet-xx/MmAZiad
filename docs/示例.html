@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Multimodal Sample</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background: #f5f7fa;
+}
+
+/* 卡片容器 */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* 三栏布局 */
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+/* 每一列 */
+.column {
+    flex: 1;
+}
+
+/* 标题 */
+.title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* 文本框 */
+.text-box {
+    background: #f0f2f5;
+    padding: 10px;
+    border-radius: 8px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>Multimodal Example</h2>
+
+<div class="card">
+    <div class="container">
+
+        <!-- 视频 -->
+        <div class="column">
+            <div class="title">Video</div>
+            <video width="100%" controls>
+                <source src="videos/sample.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- 音频 -->
+        <div class="column">
+            <div class="title">Audio</div>
+            <audio controls>
+                <source src="audio/sample.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <!-- 文本 -->
+        <div class="column">
+            <div class="title">Text</div>
+
+            <div class="text-box">
+                <b>Amis:</b><br>
+                Canglah kiso no niyaro.
+            </div>
+
+            <br>
+
+            <div class="text-box">
+                <b>Chinese:</b><br>
+                我今天要去工作。
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
